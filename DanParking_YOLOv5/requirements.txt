@@ -1,0 +1,27 @@
+# YOLOv5 requirements
+# 기본 패키지
+numpy>=1.18.5
+opencv-python>=4.1.1
+matplotlib>=3.2.0
+PyYAML>=5.3.1
+tqdm>=4.41.0
+pillow>=7.1.2
+scipy>=1.4.1
+
+# PyTorch 관련
+torch>=1.7.0
+torchvision>=0.8.1
+
+# 로깅 관련 (선택)
+tensorboard>=2.4.1
+# clearml>=1.2.0
+# comet-ml>=3.23.0
+# wandb
+
+# 배포 관련 (선택)
+flask>=1.1.2
+gunicorn>=20.1.0  # 배포용
+
+# 기타 유틸리티
+seaborn>=0.11.0
+pandas>=1.1.4 
